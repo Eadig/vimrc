@@ -1,6 +1,6 @@
 set ruler
 set cursorline
-"set number
+set number
 syntax on
 filetype plugin indent on
 syntax enable
@@ -10,7 +10,6 @@ let g:solarized_termtrans = 1
 set background=dark
 colorscheme solarized
 
-set number
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 set tags=tags;/
 set viminfo='20,<1000
