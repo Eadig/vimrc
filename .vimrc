@@ -25,5 +25,8 @@ autocmd Filetype c++ setlocal tabstop=2 shiftwidth=2
 autocmd Filetype cpp setlocal tabstop=2 shiftwidth=2
 autocmd Filetype ruby setlocal tabstop=2 shiftwidth=2 expandtab
 autocmd Filetype html setlocal tabstop=2 shiftwidth=2 expandtab
-autocmd Filetype eruby setlocal tabstop=2 shiftwidth=2 expandta
+autocmd Filetype eruby setlocal tabstop=2 shiftwidth=2 expandtab
 autocmd Filetype yaml setlocal tabstop=2 shiftwidth=2 expandtab
+
+" Turn off bell in WSL.
+set belloff=all
